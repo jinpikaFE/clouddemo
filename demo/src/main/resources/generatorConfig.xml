@@ -38,7 +38,7 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.clouddemo.mbg.mapper"
                              targetProject="demo\src\main\java"/>
         <!--生成全部表tableName设为%-->
-        <table tableName="pms_brand">
+        <table tableName="%">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
